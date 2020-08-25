@@ -1,5 +1,5 @@
 {
-  "name": "guiamail",
+  "name": "uploadIMG",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,16 @@
     "bulma": "^0.9.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
     "express-session": "^1.17.0",
+    "generate-safe-id": "^1.0.3",
     "mysql2": "^2.1.0",
-    "nodemon": "^2.0.4",
     "sequelize": "^5.21.3",
     "sequelize-cli": "^6.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
